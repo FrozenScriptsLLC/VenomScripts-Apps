@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <!-- First DNS Profile  -->
+        <dict>
+            <key>DNSSettings</key>
+            <dict>
+                <key>DNSProtocol</key>
+                <string>HTTPS</string>
+                <key>ServerURL</key>
+                <string>https://vevrl9air2.cloudflare-gateway.com/dns-query</string>
+                <key>SupplementalMatchDomains</key>
+                <array>
+                    <string>mesu.apple.com</string>
+                    <string>guzzoni-apple-com.v.aaplimg.com</string>
+                    <string>gdmf.apple.com</string>
+                    <string>axm-app.apple.com</string>
+                    <string>comm-cohort.ess.apple.com</string>
+                    <string>comm-main.ess.apple.com</string>
+                <string>ocsp.apple.com<string>
+ <string>ocsp2.apple.com<string>
+</array>
+            </dict>
+            <key>PayloadDisplayName</key>
+            <string>CFDNS Basic AD Blocker</string>
+            <key>PayloadIdentifier</key>
+            <string>com.khoinfixed.cloudflare.io</string>
+            <key>PayloadOrganization</key>
+            <string>Dave ¥$ X AI🤖</string>
+            <key>PayloadType</key>
+            <string>com.apple.dnsSettings.managed</string>
+            <key>PayloadUUID</key>
+            <string>nvidiafs-cloudflare-dns</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+        </dict>
+
+        <!-- Second DNS Profile  -->
+        <dict>
+            <key>DNSSettings</key>
+            <dict>
+                <key>DNSProtocol</key>
+                <string>HTTPS</string>
+                <key>ServerURL</key>
+                <string> https://hd0c855nne.cloudflare-gateway.com/dns-query</string>
+                <key>SupplementalMatchDomains</key>
+                <array>
+                    <string>register.apptest.apple.com</string>
+                    <string>ocsp2.apple.com</string>
+                    <string>pxdoland.cc</string>
+                    <string>crl.apple.com</string>
+                    <string>certs.apple.com</string>
+                    <string>valid.apple.com</string>
+                <string>vpp.itunes.apple.com<string>
+<string>appattest.apple.com<string>
+</array>
+            </dict>
+            <key>PayloadDisplayName</key>
+            <string>CFDNS Basic Anti Revoke Anti Blacklist</string>
+            <key>PayloadIdentifier</key>
+            <string>com.khoinfixed.cloudfire.io</string>
+            <key>PayloadOrganization</key>
+            <string>Dave ¥$ X AI🤖</string>
+            <key>PayloadType</key>
+            <string>com.apple.dnsSettings.managed</string>
+            <key>PayloadUUID</key>
+            <string>khoin.dns.list.io</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+        </dict>
+    </array>
+
+    <key>PayloadDescription</key>
+    <string>CloudFire Basic DNS blocks revokes and blacklist using new methods found by Dave ¥$ and AI to make sure you can sideload with Zero problems if you still do then you messed something up Thank AI and Dave ¥$ 
+Discord:https://discord.gg/QTE8JDm9UK</string>
+    <key>PayloadDisplayName</key>
+    <string>CloudFire Basic DNS</string>
+    <key>PayloadIdentifier</key>
+    <string>com.khoinlist.io</string>
+    <key>PayloadScope</key>
+    <string>User</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>RHV2-dns-profile</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+</dict>
+</plist>
